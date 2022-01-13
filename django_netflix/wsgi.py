@@ -1,16 +1,16 @@
 """
-WSGI config for netlix_django_clone project.
+WSGI config for django_netflix project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
-https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
+https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/
 """
 
 import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'netlix_django_clone.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_netflix.settings')
 
 application = get_wsgi_application()
