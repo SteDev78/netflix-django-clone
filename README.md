@@ -1,1 +1,0 @@
-# netflix-django-clone
